@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17) // Cambia a 21 si usas JDK 21
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    javafxVersion = '21.0.5' // Cambia a '17.0.12' si usas JDK 17 y prefieres alinear versiones
+}
+
+application {
+    mainClass = 'com.syncup.Main'
+}
+
+javafx {
+    version = javafxVersion
+    modules = [ 'javafx.controls', 'javafx.graphics', 'javafx.base' ]
+}
+
+sourceSets {
+    main {
+        java.srcDir 'src/main/java'
+        resources.srcDir 'src/main/resources'
+    }
+    test {
+        java.srcDir 'src/test/java'
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// Empaquetar un JAR ejecutable con dependencias (opcional)
+tasks.register('fatJar', Jar) {
+    dependsOn tasks.named('jar')
+    archiveClassifier = 'all'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class': application.mainClass
+    }
+    from {
+        configurations.runtimeClasspath.get().collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with tasks.named('jar').get()
+}

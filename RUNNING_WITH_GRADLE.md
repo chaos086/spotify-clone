@@ -1,34 +1,35 @@
-# Ejecución con Gradle (recomendado)
+# Ejecutar con Gradle (JDK 21)
 
 ## Requisitos
-- Java 17 (o 21) instalado
-- Gradle Wrapper se descargará automáticamente
+- Java 21 instalado (recomendado Temurin 21 de Adoptium)
 
 ## Comandos
+- Windows:
+```
+./gradlew.bat run
+```
+- macOS / Linux:
+```
+./gradlew run
+```
 
 - Compilar:
 ```
 ./gradlew build
 ```
 
-- Ejecutar la app JavaFX:
-```
-./gradlew run
-```
-
-- Ejecutar tests:
+- Tests:
 ```
 ./gradlew test
 ```
 
-- Crear JAR "fat" (empaquetado con dependencias):
+- JAR con dependencias:
 ```
 ./gradlew fatJar
 ```
-El JAR quedará en `build/libs/syncup-all.jar`
+Salida: `build/libs/syncup-all.jar`
 
 ## Notas
-- El plugin `org.openjfx.javafxplugin` descarga y configura JavaFX automáticamente (no necesitas setear `--module-path`).
-- Si usas JDK 21 y quieres alinear versiones, puedes cambiar en `build.gradle`:
-  - `java.toolchain.languageVersion = 21`
-  - `javafxVersion = '21.0.5'`
+- JavaFX 21.0.5 se resuelve automáticamente por el plugin `org.openjfx.javafxplugin`.
+- No necesitas configurar `--module-path` ni VM options en IntelliJ.
+- Si IntelliJ pregunta por el Gradle JVM, elige tu JDK 21 instalado.

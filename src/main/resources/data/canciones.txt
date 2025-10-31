@@ -1,0 +1,51 @@
+id,titulo,artista,genero,anio,duracion
+1,Despacito,Luis Fonsi ft. Daddy Yankee,Reggaeton,2017,229
+2,Shape of You,Ed Sheeran,Pop,2017,233
+3,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,270
+4,Thinking Out Loud,Ed Sheeran,Pop,2014,281
+5,Cheap Thrills,Sia,Pop,2016,210
+6,Con Altura,Rosalía ft. J Balvin,Reggaeton,2019,162
+7,Mi Gente,J Balvin,Reggaeton,2017,189
+8,La Bicicleta,Shakira ft. Carlos Vives,Pop,2016,205
+9,Obsesión,Aventura,Bachata,2002,240
+10,Color Esperanza,Diego Torres,Pop,2002,215
+11,Me Rehúso,Danny Ocean,Reggaeton,2016,189
+12,Baila Baila Baila,Ozuna,Reggaeton,2019,176
+13,Taki Taki,DJ Snake ft. Selena Gomez,Reggaeton,2018,212
+14,Havana,Camila Cabello,Pop,2017,217
+15,Perfect,Ed Sheeran,Pop,2017,263
+16,Blinding Lights,The Weeknd,Pop,2019,200
+17,Watermelon Sugar,Harry Styles,Pop,2020,174
+18,Levitating,Dua Lipa,Pop,2020,203
+19,As It Was,Harry Styles,Pop,2022,167
+20,Heat Waves,Glass Animals,Indie,2020,238
+21,Bohemian Rhapsody,Queen,Rock,1975,355
+22,Hotel California,Eagles,Rock,1976,391
+23,Stairway to Heaven,Led Zeppelin,Rock,1971,482
+24,Sweet Child O' Mine,Guns N' Roses,Rock,1987,356
+25,Imagine,John Lennon,Rock,1971,183
+26,Billie Jean,Michael Jackson,Pop,1983,294
+27,Like a Rolling Stone,Bob Dylan,Rock,1965,370
+28,Smells Like Teen Spirit,Nirvana,Rock,1991,301
+29,Thunderstruck,AC/DC,Rock,1990,292
+30,Back in Black,AC/DC,Rock,1980,255
+31,What a Wonderful World,Louis Armstrong,Jazz,1967,137
+32,Fly Me to the Moon,Frank Sinatra,Jazz,1964,148
+33,Autumn Leaves,Nat King Cole,Jazz,1950,180
+34,Blue Moon,Billie Holiday,Jazz,1952,195
+35,Take Five,Dave Brubeck,Jazz,1959,324
+36,Pa' Mayté,Carlos Vives,Vallenato,1993,230
+37,Fruta Fresca,Carlos Vives,Vallenato,1999,245
+38,La Gota Fría,Carlos Vives,Vallenato,1993,280
+39,Volví a Nacer,Carlos Vives,Vallenato,2004,215
+40,La Tierra del Olvido,Carlos Vives,Vallenato,1995,290
+41,Amor Eterno,Juan Gabriel,Balada,1984,285
+42,Hasta Que Te Conocí,Juan Gabriel,Balada,1986,270
+43,Querida,Juan Gabriel,Balada,1984,295
+44,El Noa Noa,Juan Gabriel,Balada,1981,220
+45,Abrazame Muy Fuerte,Juan Gabriel,Balada,2000,310
+46,Propuesta Indecente,Romeo Santos,Bachata,2013,230
+47,Eres Mía,Romeo Santos,Bachata,2014,245
+48,Hilito,Romeo Santos,Bachata,2017,205
+49,Sobredosis,Romeo Santos,Bachata,2019,195
+50,La Diabla,Romeo Santos,Bachata,2021,220

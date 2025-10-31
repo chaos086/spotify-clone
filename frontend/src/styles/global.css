@@ -1,0 +1,16 @@
+/* Global styles */
+:root { --bg: #121212; --panel: #181818; --muted: #b3b3b3; --green: #1db954; }
+html, body, #root { height: 100%; }
+.layout { display: grid; grid-template-columns: 260px 1fr; grid-template-rows: 1fr; height: 100vh; }
+.content { display: grid; grid-template-rows: auto 1fr; background: var(--bg); }
+.page { padding: 24px; overflow: auto; }
+
+/* Cards */
+.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.card { background: var(--panel); padding: 16px; border-radius: 8px; }
+.card .cover { background: #252525; border-radius: 8px; height: 120px; margin-bottom: 8px; }
+.card .name { font-weight: 600; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}

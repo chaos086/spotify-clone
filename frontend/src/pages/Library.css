@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.card { background: #181818; padding: 16px; border-radius: 8px; }
+.card .cover { background: #252525; border-radius: 8px; height: 120px; margin-bottom: 8px; }
+.card .name { font-weight: 600; }

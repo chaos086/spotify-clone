@@ -1,0 +1,7 @@
+.sidebar { background: #000; color: #fff; height: 100vh; padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+.sidebar .logo { font-weight: 700; font-size: 18px; }
+.sidebar nav { display: grid; gap: 8px; }
+.sidebar a { color: #fff; text-decoration: none; display: flex; gap: 8px; align-items: center; padding: 8px 12px; border-radius: 6px; }
+.sidebar a:hover { background: #1a1a1a; }
+.sidebar .auth { margin-top: auto; }
+.sidebar button { width: 100%; padding: 8px 12px; border: 0; border-radius: 6px; background: #1db954; color: #000; font-weight: 700; cursor: pointer; }

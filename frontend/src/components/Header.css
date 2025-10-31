@@ -1,0 +1,4 @@
+.header { display: flex; gap: 12px; align-items: center; padding: 12px 24px; background: #0b0b0b; border-bottom: 1px solid #1e1e1e; }
+.header input { flex: 1; background: #1a1a1a; border: 0; padding: 10px 12px; border-radius: 6px; color: #fff; }
+.header .actions { display: flex; gap: 8px; }
+.header button { background: #1db954; color: #000; border: 0; padding: 8px 12px; border-radius: 6px; font-weight: 700; cursor: pointer; }

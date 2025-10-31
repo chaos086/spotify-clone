@@ -1,0 +1,4 @@
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.stat { background: #181818; padding: 16px; border-radius: 8px; }
+.stat span { color: #b3b3b3; font-size: 12px; }
+.stat strong { font-size: 20px; }
